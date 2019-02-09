@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 tagtog_docs_api_url = "http://localhost:9000/-api/documents/v1"
 
-auth = requests.auth.HTTPBasicAuth(username="demo", password="demo")
+auth = requests.auth.HTTPBasicAuth(username="demo", password="YOUR_PASSWORD")
 
 corpus = [
     "It's f*cking good!",
