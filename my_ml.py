@@ -1,12 +1,9 @@
-import flask
 from flask import Flask
 from flask import request
 import json
 import requests
 from textgenrnn import textgenrnn
 import random
-
-import logging
 
 
 app = Flask(__name__)
@@ -123,7 +120,7 @@ def collect_unlabeled_sample():
 def predict(text):
     # Call your ML
     # ...
-    possible_labels=["❤️", "😐", "😢"]
+    possible_labels = ["❤️", "😐", "😢"]
     prediction = random.choice(possible_labels)
     probability = 1/len(possible_labels)
     who = "ml:my_ml"
