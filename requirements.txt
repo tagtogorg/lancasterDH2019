@@ -61,7 +61,7 @@ python-dotenv==0.10.1
 PyYAML==4.2b4
 regex==2018.1.10
 requests==2.21.0
-rsa==3.4.2
+rsa==4.7
 s3transfer==0.1.12
 scikit-learn==0.18.1
 scipy==0.18.1
