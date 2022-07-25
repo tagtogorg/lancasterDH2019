@@ -19,7 +19,7 @@ def find_values(id, json_repr):
 def getParamsAnn(id):
   return {'project': 'Rome', 'owner': 'lancaster2019', 'ids': id, 'output': 'ann.json'}
 
-tagtogAPIUrl = "https://www.tagtog.net/-api/documents/v1"
+tagtogAPIUrl = "https://www.tagtog.com/-api/documents/v1"
 wikipediaUrl = "https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&ppprop=wikibase_item&redirects=1&format=json"
 wikidataUrl = "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json"
 coordinatesPropName = 'coordinate location (P625)'
